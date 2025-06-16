@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Birthday Date Invite</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff0f5;
+      color: #333;
+      text-align: center;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+    }
+    h1 {
+      color: #ff4d6d;
+      font-size: 2.5rem;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+    .highlight {
+      font-weight: bold;
+      color: #d6336c;
+    }
+    .button {
+      display: inline-block;
+      background-color: #ff4d6d;
+      color: #fff;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 50px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+      cursor: pointer;
+    }
+    .button:hover {
+      background-color: #e03160;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hey Birthday Girl 👀</h1>
+    <p>
+      So here's the thing "your day, your vibe".<br />
+      Just thought maybe you’d wanna hang out. Chill, no pressure.
+    </p>
+    <p>
+      I’ll pick a spot, you just show up and look like you always do (kinda distracting)
+    </p>
+    <p>
+      If you're down, just tap the button (obviously we'll go anyway)
+    </p>
+    <p><strong>Date:</strong> Wednesday (tomorrow)<br /><strong>Time:</strong> Bangun tidur, gerak<br /><strong>Outfit:</strong> White something 😉</p>
+    <button class="button" onclick="showPopup()">Cool, Let's Go</button>
+    <p style="margin-top: 2rem; font-size: 0.9rem; color: #888;">
+      (Not a date... unless it turns into one.)
+    </p>
+  </div>
+
+  <script>
+    function showPopup() {
+      alert("Alright then. You just made OUR Wednesday better.");
+    }
+  </script>
+</body>
+</html>
